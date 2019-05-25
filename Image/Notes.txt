@@ -1,0 +1,38 @@
+Digital Image-
+
+A digital image is a representation of a real image as a set of numbers that can be stored and 
+handled by a digital computer. In order to translate the image into numbers, it is divided into 
+small areas called pixels (picture elements). For each pixel, the imaging device records a number,
+ or a small set of numbers, that describe some property of this pixel, such as its brightness 
+ (the intensity of the light) or its color. The numbers are arranged in an array of rows and columns 
+ that correspond to the vertical and horizontal positions of the pixels in the image.
+
+The color depth (of a color image) or "bits per pixel" is the number of bits in the numbers that
+ describe the brightness or the color. More bits make it possible to record more shades of gray or
+  more colors. For example, an RGB image with 8 bits per color has a total of 24 bits per pixel
+   ("true color"). 
+
+The format of the image gives more details about how the numbers are arranged in the image file,
+ including what kind of compression is used, if any. Among the most popular of the dozens of formats 
+ available are TIFF, GIF, JPEG, PNG, and Post-Script.
+
+
+bmp, eps,gif,jpeg,png,msp, ppm, tiff
+
+Predefined image enhancement filters in PILLOW
+
+BLUR
+CONTOUR
+DETAIL
+EDGE_ENHANCE
+EDGE_ENHANCE_MORE
+EMBOSS
+FIND_EDGES
+SMOOTH
+SMOOTH_MORE
+SHARPEN
+
+
+
+The Pillow library enables you to convert images between different pixel representations using the convert() method. 
+It supports conversions between L (greyscale), RGB and CMYK modes.

@@ -1,0 +1,15 @@
+import turtle
+win=turtle.Screen()
+win.setup(1000,150)
+turt=turtle.Turtle()
+turt.penup()
+turt.speed(1)#0fastest ,1slowest (0-10)
+turt.goto(100,100)
+# Should be ‘arrow’, ‘classic’, ‘turtle’ or ‘circle’
+turt.shape('arrow')
+turt.pendown()
+turt.forward(100)
+turt.stamp()
+turt.goto(-200,-100)
+turt.stamp()
+win.mainloop()
